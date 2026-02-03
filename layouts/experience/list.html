@@ -1,0 +1,72 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-kicker">Experience</p>
+        <h1 class="section-title">{{ .Title }}</h1>
+        {{ with .Content }}
+          <div class="section-lead">
+            {{ . }}
+          </div>
+        {{ end }}
+      </header>
+      <div class="section-body">
+        <div>
+          <div class="grid grid-two">
+            {{ range .Pages.ByWeight }}
+              <article class="card">
+                <header class="card-header">
+                  <div>
+                    <h2 class="card-title">{{ .Title }}</h2>
+                    <p class="card-meta">
+                      {{ with .Params.company }}{{ . }}{{ end }}
+                      {{ with .Params.location }} · {{ . }}{{ end }}
+                    </p>
+                  </div>
+                  <div class="card-meta">
+                    {{ with .Params.start }}{{ . }}{{ end }}
+                    {{ if or .Params.start .Params.end }}–{{ end }}
+                    {{ with .Params.end }}{{ . }}{{ else }}Present{{ end }}
+                  </div>
+                </header>
+                {{ with .Params.tags }}
+                  <div class="badge-row">
+                    {{ range . }}
+                      <span class="badge badge-accent">{{ . }}</span>
+                    {{ end }}
+                  </div>
+                {{ end }}
+                {{ with .Content }}
+                  <ul class="card-list">
+                    {{ range (split (trim . "\n") "\n") }}
+                      {{ if strings.HasPrefix . "-" }}
+                        <li>{{ replace . "-" "" | markdownify }}</li>
+                      {{ end }}
+                    {{ end }}
+                  </ul>
+                {{ end }}
+              </article>
+            {{ end }}
+          </div>
+        </div>
+        <aside class="stack muted">
+          <div class="meta-grid">
+            <div>
+              <div class="meta-label">What this page shows</div>
+              <div class="meta-value">
+                A high‑level view of where I’ve worked, the kinds of problems I’ve tackled, and how I collaborate with teams.
+              </div>
+            </div>
+            <div>
+              <div class="meta-label">How to read it</div>
+              <div class="meta-value">
+                Each role focuses on outcomes and responsibilities rather than task lists—what changed because of the work.
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+{{ end }}
+

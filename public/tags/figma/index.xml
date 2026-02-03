@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Figma on Victor Van Gestel – Developer</title>
+    <link>//localhost:1313/tags/figma/</link>
+    <description>Recent content in Figma on Victor Van Gestel – Developer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/figma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-commerce consultant</title>
+      <link>//localhost:1313/experience/e-commerce-consultant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/experience/e-commerce-consultant/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Creating new components and layouts for the client&amp;rsquo;s website using Figma. Creating a component library for the client to use in future requests.&lt;/li&gt;&#xA;&lt;li&gt;Follow-up with the development agency. Ensuring the project stays within budget and new feature were sufficient to today&amp;rsquo;s standards. Managing the project within Jira.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

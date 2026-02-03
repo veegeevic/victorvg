@@ -1,0 +1,70 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-kicker">Studies</p>
+        <h1 class="section-title">{{ .Title }}</h1>
+        {{ with .Content }}
+          <div class="section-lead">
+            {{ . }}
+          </div>
+        {{ end }}
+      </header>
+      <div class="section-body">
+        <div class="grid grid-two">
+          {{ range .Pages.ByWeight }}
+            <article class="card">
+              <header class="card-header">
+                <div>
+                  <h2 class="card-title">{{ .Title }}</h2>
+                  <p class="card-meta">
+                    {{ with .Params.institution }}{{ . }}{{ end }}
+                    {{ with .Params.location }} · {{ . }}{{ end }}
+                  </p>
+                </div>
+                <div class="card-meta">
+                  {{ with .Params.start }}{{ . }}{{ end }}
+                  {{ if or .Params.start .Params.end }}–{{ end }}
+                  {{ with .Params.end }}{{ . }}{{ else }}Present{{ end }}
+                </div>
+              </header>
+              {{ with .Params.tags }}
+                <div class="badge-row">
+                  {{ range . }}
+                    <span class="badge">{{ . }}</span>
+                  {{ end }}
+                </div>
+              {{ end }}
+              {{ with .Content }}
+                <ul class="card-list">
+                  {{ range (split (trim . "\n") "\n") }}
+                    {{ if strings.HasPrefix . "-" }}
+                      <li>{{ replace . "-" "" | markdownify }}</li>
+                    {{ end }}
+                  {{ end }}
+                </ul>
+              {{ end }}
+            </article>
+          {{ end }}
+        </div>
+        <aside class="stack muted">
+          <div class="meta-grid">
+            <div>
+              <div class="meta-label">Focus areas</div>
+              <div class="meta-value">
+                Human–computer interaction, UX methods, and accessibility—plus ongoing learning through courses and practice.
+              </div>
+            </div>
+            <div>
+              <div class="meta-label">How it connects to my work</div>
+              <div class="meta-value">
+                My studies inform how I structure research, think in systems, and bring accessibility into everyday decisions.
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+{{ end }}
+

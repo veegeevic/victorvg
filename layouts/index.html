@@ -1,0 +1,62 @@
+{{ define "main" }}
+  <section class="hero container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow">Portfolio · {{ .Site.Params.role }}</div>
+        <h1 class="hero-title">
+          I build
+          <span class="hero-highlight">digital products</span>
+          that feel effortless to use.
+        </h1>
+        <p class="hero-subtitle">
+          I’m {{ .Site.Params.name }}, a frontend developer who blends
+          interaction design, performance optimization, and WCAG-compliant implementation to ship experiences
+          that work for everyone.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="{{ "/experience/" | relURL }}">View experience</a>
+          <a class="btn btn-secondary" href="{{ "/contact/" | relURL }}">Let’s work together</a>
+        </div>
+      </div>
+      <div class="stack">
+        <div class="hero-meta">
+          <div>
+            <div class="hero-meta-label">Focus areas</div>
+            <div>Web development, design-to-dev collaboration, accessibility</div>
+          </div>
+          <div>
+            <div class="hero-meta-label">Tooling</div>
+            <div>HTML, CSS, Javascript, Modern frontend frameworks</div>
+          </div>
+        </div>
+        <div class="badge-row">
+          <span class="pill">
+            <span class="pill-dot"></span>
+            <span class="pill-label">Availability</span>
+            <span class="pill-value">Working at Us</span>
+          </span>
+          <span class="pill pill-subtle">
+            <span class="pill-subtle-dot pill-dot"></span>
+            <span class="pill-label">Approach</span>
+            <span class="pill-value">User-centered & future-proof</span>
+          </span>
+        </div>
+        <div class="meta-grid">
+          <div>
+            <div class="meta-label">What I care about</div>
+            <div class="meta-value">
+              Interfaces that are inclusive by default, clear content, and flows that respect people’s time.
+            </div>
+          </div>
+          <div>
+            <div class="meta-label">How I work</div>
+            <div class="meta-value">
+              Close collaboration with product and engineering, clear documentation, and frequent, small iterations.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+

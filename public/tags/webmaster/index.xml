@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webmaster on Victor Van Gestel – Developer</title>
+    <link>//localhost:1313/tags/webmaster/</link>
+    <description>Recent content in Webmaster on Victor Van Gestel – Developer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/webmaster/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Webdeveloper</title>
+      <link>//localhost:1313/experience/webdeveloper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/experience/webdeveloper/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Designed &lt;strong&gt;end‑to‑end workflows&lt;/strong&gt; for analytics and reporting, making it significantly easier for non‑technical users to understand product performance.&lt;/li&gt;&#xA;&lt;li&gt;Ran lightweight &lt;strong&gt;discovery and usability sessions&lt;/strong&gt;, feeding insights directly into prioritization and roadmap discussions.&lt;/li&gt;&#xA;&lt;li&gt;Created a shared library of &lt;strong&gt;interaction patterns, empty states, and error messages&lt;/strong&gt;, improving consistency across multiple teams.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

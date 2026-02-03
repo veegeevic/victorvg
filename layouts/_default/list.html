@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-kicker">Section</p>
+        <h1 class="section-title">{{ .Title }}</h1>
+        {{ with .Content }}
+          <div class="section-lead">
+            {{ . }}
+          </div>
+        {{ end }}
+      </header>
+    </div>
+  </section>
+{{ end }}
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Victor Van Gestel – Developer</title>
+    <link>//localhost:1313/tags/research/</link>
+    <description>Recent content in Research on Victor Van Gestel – Developer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSc – Human–Computer Interaction</title>
+      <link>//localhost:1313/studies/msc-humancomputer-interaction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/studies/msc-humancomputer-interaction/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Focused on &lt;strong&gt;user‑centered design, prototyping, and qualitative research methods&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Completed a thesis on how &lt;strong&gt;micro‑interactions influence perceived usability&lt;/strong&gt; in complex tools.&lt;/li&gt;&#xA;&lt;li&gt;Collaborated with multidisciplinary teams on projects spanning mobile apps, responsive web, and interactive installations.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>UX / UI Designer – SaaS</title>
+      <link>//localhost:1313/experience/ux-/-ui-designer-saas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/experience/ux-/-ui-designer-saas/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Designed &lt;strong&gt;end‑to‑end workflows&lt;/strong&gt; for analytics and reporting, making it significantly easier for non‑technical users to understand product performance.&lt;/li&gt;&#xA;&lt;li&gt;Ran lightweight &lt;strong&gt;discovery and usability sessions&lt;/strong&gt;, feeding insights directly into prioritization and roadmap discussions.&lt;/li&gt;&#xA;&lt;li&gt;Created a shared library of &lt;strong&gt;interaction patterns, empty states, and error messages&lt;/strong&gt;, improving consistency across multiple teams.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inclusive Design on Victor Van Gestel – Developer</title>
+    <link>//localhost:1313/tags/inclusive-design/</link>
+    <description>Recent content in Inclusive Design on Victor Van Gestel – Developer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/inclusive-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accessibility &amp; Inclusive Design Specialization</title>
+      <link>//localhost:1313/studies/accessibility-inclusive-design-specialization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/studies/accessibility-inclusive-design-specialization/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Studied &lt;strong&gt;WCAG 2.1 guidelines&lt;/strong&gt;, assistive technologies, and practical techniques for inclusive design.&lt;/li&gt;&#xA;&lt;li&gt;Practiced auditing flows for &lt;strong&gt;contrast, keyboard access, and screen reader support&lt;/strong&gt;, then translating findings into concrete design and dev tasks.&lt;/li&gt;&#xA;&lt;li&gt;Applied learnings to ongoing projects by updating components, patterns, and team checklists.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

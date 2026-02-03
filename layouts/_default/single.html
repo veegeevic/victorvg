@@ -1,0 +1,29 @@
+{{ define "main" }}
+  <section class="section">
+    <div class="container">
+      <header class="section-header">
+        <p class="section-kicker">Detail</p>
+        <h1 class="section-title">{{ .Title }}</h1>
+        {{ with .Params.company }}
+          <p class="section-lead">
+            {{ . }}
+            {{ with $.Params.location }} · {{ . }}{{ end }}
+          </p>
+        {{ else }}
+          {{ with .Params.institution }}
+            <p class="section-lead">
+              {{ . }}
+              {{ with $.Params.location }} · {{ . }}{{ end }}
+            </p>
+          {{ end }}
+        {{ end }}
+      </header>
+      <article class="stack">
+        <div class="muted">
+          {{ .Content }}
+        </div>
+      </article>
+    </div>
+  </section>
+{{ end }}
+

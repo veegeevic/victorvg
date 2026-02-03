@@ -1,0 +1,20 @@
+{{ $title := .Title }}
+{{ if .IsHome }}
+  {{ $title = printf "%s – %s" .Site.Params.name .Site.Params.role }}
+{{ end }}
+{{ $description := cond (ne .Description "") .Description .Site.Params.description }}
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+

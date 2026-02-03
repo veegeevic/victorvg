@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VWO on Victor Van Gestel – Developer</title>
+    <link>//localhost:1313/tags/vwo/</link>
+    <description>Recent content in VWO on Victor Van Gestel – Developer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="//localhost:1313/tags/vwo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CRO</title>
+      <link>//localhost:1313/experience/cro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/experience/cro/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;Creating A/B-tests in VWO to test new features on the website and improve conversion rate.&lt;/li&gt;&#xA;&lt;li&gt;Brainstorming new functionalities to test.&lt;/li&gt;&#xA;&lt;li&gt;Being in touch with the development team to integrate new features.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
